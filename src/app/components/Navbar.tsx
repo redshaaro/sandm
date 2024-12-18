@@ -14,9 +14,12 @@ const Navbar = () => {
 
                 </div>
             </Link>
-            <div className='md:block'>
+            <div className='md:hidden'>
             <Mobilemenu></Mobilemenu>
+
+
             </div>
+           
             
             <div className='hidden md:flex justify-between items-center   w-[50%] mr-5      '>
                 <Link className='hover:text-[#4883ff] transi' href="/">Home</Link>
