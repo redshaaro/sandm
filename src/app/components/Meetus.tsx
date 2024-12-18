@@ -8,19 +8,19 @@ const Meetus = () => {
         <>
             <div className='text-2xl text-[#053e7f] font-bold   my-2 mx-3'>Meetus</div>
             <div className='flex flex-col items-start justify-center gap-2 mx-3'>
-                <div className='flex items-center justify-center gap-2'>
+                {/* <div className='flex items-center justify-center gap-2'>
                     <LocalPhoneIcon className='text-blue-600'></LocalPhoneIcon>
                     <div className='text-blue-600'>+201146004472</div>
 
-                </div>
+                </div> */}
                 <div className='flex items-center justify-center gap-2'>
                     <AlternateEmailIcon className='text-blue-600'></AlternateEmailIcon>
-                    <div className='text-blue-600'>shaarawyziad@gmail.com</div>
+                    <div className='text-blue-600'>s.logistics@sandmlogistic.com</div>
 
                 </div>
                 <div className='flex items-center justify-center gap-2'>
                     <LocationOnIcon className='text-blue-600'></LocationOnIcon>
-                    <div className='text-blue-600'>Alexandria</div>
+                    <div className='text-blue-600'>فيلا ١١٨ المنطقة الثانية الحى الثانى التجمع الخامس القاهرة الجديدة-اول- القاهرة</div>
 
                 </div>
 
