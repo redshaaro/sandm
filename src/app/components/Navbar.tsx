@@ -19,7 +19,10 @@ const Navbar = () => {
                 <Link className='hover:text-[#4883ff] transi' href="/">Home</Link>
                 <Link className='hover:text-[#4883ff]' href="/courses">Courses</Link>
 
-                <Link className='hover:text-[#4883ff]' href="/about">About us</Link>
+
+                <Link className='hover:text-[#4883ff]' href="/aboutus">About us</Link>
+                <Link className='hover:text-[#4883ff]' href="/ourteam">Our Team</Link>
+
                 <Link className='hover:text-[#4883ff]' href="/contact">Contact us</Link>
             </div>
 

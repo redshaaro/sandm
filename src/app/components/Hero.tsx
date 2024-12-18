@@ -10,7 +10,6 @@ const Hero = () => {
                 <div className='  text-white text-[16px] sm:text-[25px] flex justify-center w-full   font-bold md:text-[25px]'>Master the Art of Logistics</div>
 
             </div>
-            <div className=' md:block z-[1]'><button className='bg-blue-600 text-white p-2 rounded-2xl w-[200px] font-bold hover:bg-white hover:text-blue-600'>Explore !</button></div>
 
 
         </div>

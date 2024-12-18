@@ -1,0 +1,51 @@
+import React from 'react'
+import Image from 'next/image'
+import Service from '../components/Service'
+
+
+const page = () => {
+    const services = [{
+        id: 1,
+        name: "Logistics Project Oversight",
+        desc: "Offering project management services for large-scale logistics initiatives."
+        , img: "/lpo.webp"
+    },
+    {
+        id: 2,
+        name: "Change Management",
+        desc: "Supporting organizations through transitions in logistics processes or systems."
+        , img: "/changem.jpg"
+    },
+    
+
+    ]
+    return (
+        <>
+            <div className='relative w-full h-[20rem] md:h-[500px] object-cover flex flex-col md:flex-row justify-around  items-center   md:justify-evenly '>
+                <Image src="/projectmanage.jpg" fill className='absolute grayscale-[85%]' alt="hero" ></Image>
+                <div className=' z-[1] text-white text-[31px] sm:text-[34px]  flex flex-col justify-center items-center    w-full md:w-[50%]   font-bold '>
+                    
+
+
+                </div>
+
+
+
+
+            </div>
+            <div className='flex justify-center items-center flex-wrap'>
+                {
+                    services.map((service) => (<Service id={service.id} image={service.img} desc={service.desc} name={service.name}></Service>))
+                }
+
+
+
+
+            </div>
+
+
+        </>
+    )
+}
+
+export default page
